@@ -4,6 +4,12 @@ title: About
 permalink: /about/
 ---
 
+### What this is not
+This is not for complete beginners. You do require some level of linux.
+
+### What this is 
+
+
 <!-- Some information about you!
 
 ### More Information
