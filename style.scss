@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 monospace;
   color: $darkGray;
 }
 
@@ -242,8 +242,24 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
+}
+
+.post-title {
+  font-family:monospace;
+  
+  font-size: 22px; // Slightly larger font size for titles
+  font-weight: bold; // Normal font weight for a minimalist look
+  margin: 10px 0px; // Adjust the margin as needed for spacing
+  a {
+    color: #000; // Black color for titles
+    text-decoration: none; // No underline
+    transition: color 0.3s ease; // Smooth transition for hover effect
+    
+    &:hover {
+      color: #3498db; // Change color on hover to a blue
+    }
+  }
 }
 
 .posts > .post:last-child {
